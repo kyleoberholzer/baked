@@ -40,3 +40,168 @@
 .read-the-docs {
   color: #888;
 }
+
+.calculator-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  margin-bottom: 2rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ingredients-grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ingredient-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.ingredient-row span:first-child {
+  font-weight: bold;
+}
+
+.ingredient-row input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.ingredient-row span:last-child {
+  text-align: right;
+  font-weight: bold;
+  color: #666;
+}
+
+.ingredient-row.header {
+  background-color: #e9ecef;
+  font-weight: bold;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.ingredient-row.header span {
+  text-align: center;
+}
+
+.total-weight {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+.total-weight h3 {
+  margin: 0;
+  color: #333;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.flour-section {
+  margin-bottom: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.flour-header {
+  background-color: #e9ecef;
+  font-weight: bold;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 2px solid #dee2e6;
+  margin-bottom: 0.5rem;
+}
+
+.flour-type {
+  margin-bottom: 0.5rem;
+}
+
+.flour-name-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flour-name-input input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.remove-flour {
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  line-height: 1;
+}
+
+.remove-flour:hover {
+  color: #c82333;
+}
+
+.add-flour {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #f8f9fa;
+  border: 1px dashed #dee2e6;
+  border-radius: 4px;
+  color: #6c757d;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.add-flour:hover {
+  background-color: #e9ecef;
+  color: #495057;
+}
